@@ -144,3 +144,208 @@ h3{
         0 10px 20px rgba(0,119,255,0.25);
 }
     
+/* =========================
+   MENU PAGE
+========================= */
+
+.menu-page{
+    margin-top: 180px;
+    padding: 20px;
+}
+
+/* Back Button */
+
+.back-btn{
+    display: inline-block;
+
+    margin-bottom: 20px;
+
+    text-decoration: none;
+
+    color: #0077ff;
+
+    font-size: 18px;
+
+    font-weight: bold;
+}
+
+/* Welcome */
+
+.welcome h2{
+    font-size: 28px;
+
+    margin-bottom: 8px;
+}
+
+.welcome p{
+    color: #666;
+
+    margin-bottom: 24px;
+}
+
+/* Search */
+
+.search-box input{
+    width: 100%;
+
+    padding: 16px;
+
+    border: none;
+
+    border-radius: 18px;
+
+    outline: none;
+
+    background: #f0f7ff;
+
+    font-size: 16px;
+
+    margin-bottom: 24px;
+}
+
+/* Category */
+
+.category-container{
+    display: flex;
+
+    gap: 12px;
+
+    overflow-x: auto;
+
+    margin-bottom: 28px;
+
+    padding-bottom: 6px;
+}
+
+.category-btn{
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 999px;
+
+    background: white;
+
+    color: #0077ff;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    white-space: nowrap;
+
+    box-shadow:
+        0 4px 10px rgba(0,0,0,0.08);
+
+    transition: 0.2s;
+}
+
+.category-btn.active{
+    background: linear-gradient(
+        135deg,
+        #0077ff,
+        #00bfff
+    );
+
+    color: white;
+}
+
+/* Title */
+
+.menu-title{
+    margin-bottom: 20px;
+
+    font-size: 24px;
+}
+
+/* Menu */
+
+.menu-list{
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+
+    gap: 18px;
+}
+
+/* Food Card */
+
+.food-card{
+    background: white;
+
+    border-radius: 24px;
+
+    padding: 14px;
+
+    box-shadow:
+        0 6px 14px rgba(0,0,0,0.08);
+}
+
+/* Image */
+
+.food-image{
+    width: 100%;
+
+    aspect-ratio: 1/1;
+
+    background: #dbeafe;
+
+    border-radius: 20px;
+
+    margin-bottom: 14px;
+}
+
+/* Food Name */
+
+.food-card h4{
+    font-size: 18px;
+
+    margin-bottom: 8px;
+}
+
+/* Price */
+
+.food-card p{
+    color: #0077ff;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin-bottom: 14px;
+}
+
+/* Button */
+
+.food-card button{
+    width: 100%;
+
+    border: none;
+
+    padding: 12px;
+
+    border-radius: 16px;
+
+    background: linear-gradient(
+        135deg,
+        #0077ff,
+        #00bfff
+    );
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.food-card button:hover{
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 16px rgba(0,119,255,0.25);
+}
